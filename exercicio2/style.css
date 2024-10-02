@@ -1,0 +1,66 @@
+:root {
+    --main-color: whitesmoke;
+    --second-color: red;
+    --font-color: white;
+
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+h1 {
+    color: var(--second-color);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input#user {
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+input#password {
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+button {
+    margin-bottom: 5%;
+    background-color: var(--second-color);
+    color: var(--font-color);
+    border: none;
+    border-radius: 5px;
+    width: 169.6px;
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+fieldset {
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 50%;
+    height: 98%;
+    margin: 2% 0% 2% 23%;
+    border-radius: 10px;
+    background-color: var(--font-color);
+}
