@@ -13,22 +13,37 @@
     <main>
         <fieldset>
             <form action="./action_page.php">Informação do Usuário</form>
-            <label for="nome">Nome</label>
-            <input type="text" name="nome">
-            <label for="sexo">Sexo</label>
-            <input list="sexo" name="sexo">
-            <datalist id="sexo">
-                <option value="Masculino"></option>
-                <option value="Feminino"></option>
-            </datalist>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
-            <label for="dtnascimento">Data de Nascimento</label>
-            <input type="date" name="dtnascimento" id="dtnascimento">
-            <label for="senha">Digite a Senha</label>
-            <input type="password" name="senha" id="senha">
-            <label for="senha2">Repita a Senha</label>
-            <input type="password" name="senha2" id="senha2">
+            <div class="nome">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome">
+            </div>
+            <div class="sexo">
+                <label for="sexo">Sexo</label>
+                <input list="sexo" name="sexo">
+                <datalist id="sexo">
+                    <option value="Masculino"></option>
+                    <option value="Feminino"></option>
+                </datalist>
+            </div>
+            <div class="email">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="dtnascimento">
+                <label for="dtnascimento">Data de Nascimento</label>
+                <input type="date" name="dtnascimento" id="dtnascimento">
+            </div>
+            <div class="senha">
+                <label for="senha">Digite a Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="senha">
+                <label for="senha2">Repita a Senha</label>
+                <input type="password" name="senha2" id="senha2">
+            </div>
+            <div>
+
+            </div>
         </fieldset>
         <fieldset>
             <form action="./action_page.php">Endereço</form>

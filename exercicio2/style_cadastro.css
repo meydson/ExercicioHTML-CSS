@@ -37,3 +37,7 @@ fieldset {
     margin-bottom: 20px;
     color: var(--second-color);
 }
+
+fieldset #nome {
+    width: inherit;
+}
