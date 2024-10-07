@@ -1,0 +1,26 @@
+:root {
+    --main-color: whitesmoke;
+    --second-color: red;
+    --color-hover: rgba(197, 14, 14, 0.808);
+    --font-color: white;
+    --text-font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border-radius: 25px;
+    min-width: 70vw;
+    max-width: 85vw;
+    margin: -1px auto 10px;
+    border: 1px solid #ddd;
+    background-color: #FFF;
+    font-family: var(--text-font-family);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    color: var(--second-color);
+    text-align: center;
+}
