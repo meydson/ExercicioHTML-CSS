@@ -7,20 +7,33 @@
 }
 
 main {
-    border-radius: 25px;
+    /*border-radius: 25px;
     min-width: 70vw;
     max-width: 85vw;
     margin: -1px auto 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ddd;*/
     background-color: #FFF;
     font-family: var(--text-font-family);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 header {
     color: var(--second-color);
     text-align: center;
+}
+
+fieldset {
+    width: 90%;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:normal;
+    margin-bottom: 20px;
+    color: var(--second-color);
 }
