@@ -27,7 +27,7 @@ header {
 }
 
 fieldset {
-    width: 90%;
+    width: 85%;
     border-radius: 25px;
     border: 1px solid #ddd;
     display: flex;
@@ -38,6 +38,22 @@ fieldset {
     color: var(--second-color);
 }
 
-fieldset #nome {
-    width: inherit;
+fieldset div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+fieldset label {
+    width: 25%; 
+    align-items: left;
+}
+
+fieldset input {
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    width: 100%;
 }
