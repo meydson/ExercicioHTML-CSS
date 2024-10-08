@@ -12,7 +12,8 @@
     </header>
     <main>
         <fieldset>
-            <form action="./action_page.php">Informação do Usuário</form>
+            <legend>Informação do Usuário</legend>
+            <form action="./action_page.php"></form>
             <div class="nome">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome">
@@ -41,35 +42,54 @@
                 <label for="senha2">Repita a Senha</label>
                 <input type="password" name="senha2" id="senha2">
             </div>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <form action="./action_page.php"></form>
             <div>
-
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco">
+            </div>
+            <div>
+                <label for="complemento">Complement</label>
+                <input type="text" name="complemento">
+            </div>
+            <div>
+                <label for="rua">Nome da Rua</label>
+                <input type="text" name="rua">
+            </div>
+            <div>
+                <label for="rua">Nome da Rua</label>
+                <input type="text" name="rua">
+            </div>
+            <div>
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade">
+            </div>
+            <div>
+                <label for="estado">Estado</label>
+                <input type="text" name="estado">
             </div>
         </fieldset>
         <fieldset>
-            <form action="./action_page.php">Endereço</form>
-            <label for="endereco">Endereço</label>
-            <input type="text" name="endereco">
-            <label for="complemento">Complement</label>
-            <input type="text" name="complemento">
-            <label for="rua">Nome da Rua</label>
-            <input type="text" name="rua">
-            <label for="rua">Nome da Rua</label>
-            <input type="text" name="rua">
-            <label for="cidade">Cidade</label>
-            <input type="text" name="cidade">
-            <label for="estado">Estado</label>
-            <input type="text" name="estado">
-        </fieldset>
-        <fieldset>
-            <form action="./action_page.php">Pagamento</form>
-            <label for="cartao">Numero do Cartão</label>
-            <input type="text" name="cartao">
-            <label for="dtvalidade">Data de Validade</label>
-            <input type="datetime" name="dtvalidade" id="dtvalidade">
-            <label for="codigo">Codigo de Verificação</label>
-            <input type="text" name="dtvalidade">
-            <label for="nometitular">Titular do Cartão</label>
-            <input type="text" name="nometitular">
+            <legend>Pagamento</legend>
+            <form action="./action_page.php"></form>
+            <div>
+                <label for="cartao">Numero do Cartão</label>
+                <input type="text" name="cartao">
+            </div>
+            <div>
+                <label for="dtvalidade">Data de Validade</label>
+                <input type="datetime" name="dtvalidade" id="dtvalidade">
+            </div>
+            <div>
+                <label for="codigo">Codigo de Verificação</label>
+                <input type="text" name="dtvalidade">
+            </div>
+            <div>
+                <label for="nometitular">Titular do Cartão</label>
+                <input type="text" name="nometitular">
+            </div>
         </fieldset>
         <button type="submit">Enviar</button>
     </main>
