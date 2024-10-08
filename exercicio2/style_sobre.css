@@ -49,8 +49,10 @@ nav ul {
     padding-right: 30px;
 }
 
-section {
+main {
     justify-content: left;
+    display: inline;
+    float: left;
 }
 aside img {
     width: 100px;
@@ -59,4 +61,20 @@ aside img {
 aside, footer{
     font-family: var(--text-font-family);
     color: var(--second-color);
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: var(--text-font-family);
+    color: var(--font-color);
+}
+
+nav ul li a:hover {
+    background-color: rgba(201, 42, 42, 0.678);
+}
+
+aside {
+    display: inline;
+    float: right;
+
 }
