@@ -50,17 +50,14 @@ nav ul {
 }
 
 main {
-    justify-content: left;
+    /*justify-content: left;
     display: inline;
+    float: left;*/
     float: left;
-}
-aside img {
-    width: 100px;
-    height: 100px;
-}
-aside, footer{
-    font-family: var(--text-font-family);
-    color: var(--second-color);
+    margin: 30px 20px;
+    width: 60%;
+    min-width: 40vw;
+    text-align: justify;
 }
 
 nav ul li a{
@@ -73,8 +70,51 @@ nav ul li a:hover {
     background-color: rgba(201, 42, 42, 0.678);
 }
 
-aside {
-    display: inline;
-    float: right;
+#comment {
+    float: left;
+    width: 40%;
+    border-top: 1px solid var(--second-color);
+    border-bottom: 1px solid var(--second-color);
+    padding: 40px 10px 40px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 
+aside img {
+    width: 300px;
+    height: 300px;
+}
+
+aside, footer{
+    font-family: var(--text-font-family);
+    color: var(--second-color);
+}
+
+footer {
+    padding-top: 20px;
+    border-radius: 25px;
+    clear: both;
+    width: inherit;
+    margin: 0 auto;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+aside {
+    float: right;
+    width: 280px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+@media (max-width:900px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }   
+    nav {
+        height: 170px;
+    }
 }
